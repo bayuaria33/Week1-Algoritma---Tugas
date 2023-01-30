@@ -1,0 +1,14 @@
+Algoritma Pseudocode Reverse Words
+Tugas PC Week 1 Basic Computer Science
+Ariabayu Prayogo 
+
+1. Mulai
+2. Siapkan array kosong sementara tempKalimat
+3. Masukan Kalimat
+4. Jika variabel Kalimat kosong, kembali ke tahap sebelumnya. Jika tidak, lanjutkan
+5. pecah variabel Kalimat berdasarkan spasi " " menggunakan metode .split()
+6. Siapkan variabel jumlahKata berisi jumlah elemen dalam array Kalimat yang telah di split.
+7. Selama jumlahKata lebih dari nol, masukan isi elemen arrayKalimat pada index jumlahKata ke dalam array tempKalimat menggunakan metode .push() . Kurangi jumlahKata dengan 1.
+8. Setelah jumlahKata = 0, gunakan metode .join() untuk menggabungkan isi array tempKalimat menjadi String.
+9. Output String
+10. Selesai

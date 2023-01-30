@@ -1,0 +1,12 @@
+Algoritma Pseudocode Deteksi Palindrome
+Tugas PC Week 1 Basic Computer Science
+Ariabayu Prayogo
+
+1. Mulai
+2. Siapkan variabel string sementara tempString
+3. Masukkan String
+4. Jika variabel String kosong, kembali ke tahap sebelumnya. Jika tidak, lanjutkan
+5. Siapkan variabel panjangString berisi panjang dari variabel String.
+6. Selama panjangString lebih dari nol, tambahkan karakter String pada index panjangString ke variabel tempString. Kurangi panjangString dengan 1.
+7. Setelah panjangString = 0, Jika isi variabel String sama dengan isi variabel tempString, maka String adalah Palindrome. Jika tidak maka String bukan Palindrome.
+8.Selesai
